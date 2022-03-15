@@ -10,6 +10,11 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
+    "axios": "^0.26.0",
+    "fs": "^0.0.1-security",
+    "nylas": "^6.2.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -27,6 +32,11 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   },
   "browserslist": {
     "production": [
